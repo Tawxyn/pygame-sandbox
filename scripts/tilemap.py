@@ -1,4 +1,4 @@
-NEIGHBOR_OFFSET = [(-1, 0), (-1, -1), (0, -1), (1, -1), ()]
+NEIGHBOR_OFFSET = [(-1, 0), (-1, -1), (0, -1), (1, -1), (1, 0), (0, 0), (-1, 0), (0, 1), (1, 1)]
 
 class Tilemap:
     def __init__(self, game, tile_size=16):
